@@ -6,7 +6,9 @@ namespace Schedule.Infrastructure.Database.EF.Context;
 public class ScheduleBdContext : DbContext
 {
     public DbSet<UserEntity> User { get; set; }
-
+    public DbSet<ScheduleEntity> Schedule { get; set; }
+    public DbSet<PersonEntity> Person { get; set; }
+    
     public ScheduleBdContext(DbContextOptions<ScheduleBdContext> options) : base(options) {}
 
     public override int SaveChanges()

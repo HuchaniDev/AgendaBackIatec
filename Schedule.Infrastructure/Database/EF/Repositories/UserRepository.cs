@@ -20,11 +20,11 @@ public class UserRepository:GenericRepository<UserEntity>, IUserRepository
         if (model.Id==0)
         {
             var newEntity = model.ToEntity();
-            return Task.FromResult<UserModel>(base.CreateAsync(newEntity).Result.ToModel());
+            return Task.FromResult(base.CreateAsync(newEntity).Result.ToModel());
         }
 
         var entity = model.ToEntity();
-        return Task.FromResult<UserModel>(UpdateAsync(entity).Result.ToModel());
+        return Task.FromResult(UpdateAsync(entity).Result.ToModel());
     }
 
     public Task<UserModel?> GetByIdAsync(int id)

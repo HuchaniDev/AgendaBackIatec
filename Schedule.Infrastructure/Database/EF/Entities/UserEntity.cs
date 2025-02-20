@@ -15,21 +15,18 @@ public class UserEntity:BaseEntity, IIdentifiable
     [StringLength(25)]
     public string Name { get; set; }
     
-    [Required]
-    [Column("lastName")]
-    [StringLength(50)]
-    public string LastName { get; set; }
     
     [Required]
     [Column("email")]
     [StringLength(30)]
     public string Email { get; set; }
     
-    [Required]
-    [Column("ci")]
-    public int Ci { get; set; }
+
     
     [Required]
     [Column("password")]
     public string Password { get; set; }
+    
+    public virtual ICollection<ScheduleEntity> Schedules { get; set; }
+    
 }

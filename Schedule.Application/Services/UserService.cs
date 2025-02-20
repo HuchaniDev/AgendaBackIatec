@@ -19,8 +19,8 @@ public class UserService
     {
         bool isSaved = (_userRepository.CreateAsync(model))!=null;
         if (isSaved)
-            return Task.FromResult<Result<object>>(Result<object>.Success(new {}, HttpStatusCode.Created));
+            return Task.FromResult(Result<object>.Success(new {}, HttpStatusCode.Created));
         
-        return Task.FromResult<Result<object>>(Result<object>.Failure(new List<string> { "Error al guardar el usuario." }, HttpStatusCode.BadRequest));
+        return Task.FromResult(Result<object>.Failure(new List<string> { "Error al guardar el usuario." }, HttpStatusCode.BadRequest));
     }
 }

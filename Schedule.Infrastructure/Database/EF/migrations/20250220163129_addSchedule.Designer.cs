@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Schedule.Infrastructure.Database.EF.Context;
 
@@ -11,9 +12,10 @@ using Schedule.Infrastructure.Database.EF.Context;
 namespace Schedule.Infrastructure.Database.EF.migrations
 {
     [DbContext(typeof(ScheduleBdContext))]
-    partial class ScheduleBdContextModelSnapshot : ModelSnapshot
+    [Migration("20250220163129_addSchedule")]
+    partial class addSchedule
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

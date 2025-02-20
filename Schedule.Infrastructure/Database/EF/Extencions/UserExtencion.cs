@@ -11,7 +11,6 @@ public static class UserExtencion
         {
             Id = model.Id,
             Name = model.Name,
-            LastName = model.LastName,
             Email = model.Email,
             Password = model.Password,
         };
@@ -19,6 +18,6 @@ public static class UserExtencion
     
     public static UserModel ToModel(this UserEntity entity)
     {
-        return new UserModel(entity.Id, entity.Name, entity.LastName, entity.Email, entity.Ci, entity.Password);
+        return new UserModel(entity.Id, entity.Name, entity.Email, entity.Password);
     }
 }

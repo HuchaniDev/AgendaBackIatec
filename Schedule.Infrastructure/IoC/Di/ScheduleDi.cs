@@ -34,6 +34,8 @@ public static class ScheduleDi
     public static IServiceCollection RegisterServices(this IServiceCollection collection)
     {
         collection.AddTransient<UserService>();
+        collection.AddTransient<PersonService>();
+        collection.AddTransient<ScheduleService>();
 
         return collection;
     }
@@ -41,6 +43,8 @@ public static class ScheduleDi
     public static IServiceCollection RegisterRepositories(this IServiceCollection collection)
     {
         collection.AddTransient<IUserRepository, UserRepository>();
+        collection.AddTransient<IScheduleRepository, ScheduleRepository>();
+        collection.AddTransient<IPersonRepository, PersonRepository>();
         return collection;
     }
 }

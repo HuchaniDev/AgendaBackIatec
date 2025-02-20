@@ -43,4 +43,6 @@ if (app.Environment.IsDevelopment())
 //add EndPoints
 
 app.MapUserEndpoints();
+app.MapScheduleEndpoints();
+app.MapPersonEndpoints();
 app.Run();
