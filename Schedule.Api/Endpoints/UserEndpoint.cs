@@ -19,5 +19,13 @@ internal static class UserEndpoints
                 var result = userService.Save(user).Result;
                 return Results.Json(result, statusCode:(int)result.StatusCode);
             });
+        
+        groupBuilder.MapGet(
+            "/all",
+            (UserService userService) =>
+            {
+                var result = userService.GetAll().Result;
+                return Results.Json(result, statusCode:(int)result.StatusCode);
+            }); 
     }
 }

@@ -23,4 +23,10 @@ public class UserService
         
         return Task.FromResult(Result<object>.Failure(new List<string> { "Error al guardar el usuario." }, HttpStatusCode.BadRequest));
     }
+    
+    public Task<Result<List<UserModel>>> GetAll()
+    {
+        var users = _userRepository.GetAllAsync().Result;
+        return Task.FromResult(Result<List<UserModel>>.Success(users, HttpStatusCode.OK));
+    }
 }

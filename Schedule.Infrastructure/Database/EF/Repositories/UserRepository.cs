@@ -1,4 +1,5 @@
-﻿using Schedule.Domain.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using Schedule.Domain.Models;
 using Schedule.Domain.Repositories;
 using Schedule.Infrastructure.Database.EF.Context;
 using Schedule.Infrastructure.Database.EF.Entities;
@@ -36,5 +37,14 @@ public class UserRepository:GenericRepository<UserEntity>, IUserRepository
     public new async Task<bool> DeleteHardAsync(int id)
     {
         return await base.DeleteHardAsync(id);
+    }
+
+    public async Task<List<UserModel>> GetAllAsync()
+    {
+       
+        var users = await _context.User
+            .Select(u =>u.ToModel())
+            .ToListAsync();
+        return users;
     }
 }

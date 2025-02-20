@@ -14,16 +14,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fcfbc7e4-1cfa-4fa9-93b7-f8d5c7301a48" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SCHEDULE2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SCHEDULE2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Api/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Api/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Api/Endpoints/UserEndpoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Api/Endpoints/UserEndpoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Api/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Api/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schedule.Application/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Application/Services/UserService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Domain/Models/UserModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Domain/Models/UserModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Context/ScheduleBdContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Context/ScheduleBdContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Entities/UserEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Entities/UserEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Entities/scheduleEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Entities/ScheduleEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Extencions/UserExtencion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Extencions/UserExtencion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Domain/Repositories/IUserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Domain/Repositories/IUserRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/Repositories/UserRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/migrations/ScheduleBdContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Database/EF/migrations/ScheduleBdContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/IoC/Di/ScheduleDi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/IoC/Di/ScheduleDi.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740057807241</updated>
-      <workItem from="1740057810669" duration="17047000" />
+      <workItem from="1740057810669" duration="20182000" />
     </task>
     <servers />
   </component>

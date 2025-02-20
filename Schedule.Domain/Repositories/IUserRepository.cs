@@ -5,5 +5,5 @@ namespace Schedule.Domain.Repositories;
 
 public interface IUserRepository:IGenericRepository<UserModel>
 {
-    
+    public Task<List<UserModel>>GetAllAsync();
 }
