@@ -11,8 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcfbc7e4-1cfa-4fa9-93b7-f8d5c7301a48" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SCHEDULE.2025.Api.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SCHEDULE2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SCHEDULE2025/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Api/Schedule.Api.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Api/Schedule.Api.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Application/Schedule.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Application/Schedule.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Domain/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Schedule.Infrastructure/Schedule.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Schedule.Infrastructure/Schedule.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740057807241</updated>
-      <workItem from="1740057810669" duration="677000" />
+      <workItem from="1740057810669" duration="1530000" />
     </task>
     <servers />
   </component>
