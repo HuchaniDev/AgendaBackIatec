@@ -1,6 +1,9 @@
-﻿namespace Schedule.Domain.Repositories;
+﻿using Schedule.Domain.Models;
+using Schedule.Domain.Repositories.Common;
 
-public class IUserRepository
+namespace Schedule.Domain.Repositories;
+
+public interface IUserRepository:IGenericRepository<UserModel>
 {
     
 }
